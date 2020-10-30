@@ -45,6 +45,7 @@ header .logo {
 h1  {
 	font-size: 19px;
 	text-align: center;
+	font-family: 'Kaushan Script', cursive;
 	padding: 4px;
 	color: #fff;
 }
@@ -133,7 +134,18 @@ header .categorias a.activo {
 	
 	position: relative;
 }
+.item-contenido{
+	
 
+	margin-left: 44px;
+}
+#info{
+	
+	margin: 12px;
+	border-radius: 12px;
+	border: 1px solid #c13584;
+	color: #c13584;
+}
 .grid .item img {
 	width: 29%;
 	margin: 3px;
@@ -288,6 +300,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 	.logo img{
 		width: 60%;
 		height: 40%;
+		
 		margin-left: 11px;
 	}
 	#flecha{
@@ -295,6 +308,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 		height: 24px;
 		margin-left: 49%;
 	}
+
 	.grid .item {
 		width: calc(50% - 20px);
 	}
