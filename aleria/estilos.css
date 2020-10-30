@@ -45,7 +45,6 @@ header .logo {
 h1  {
 	font-size: 19px;
 	text-align: center;
-	font-family: 'Kaushan Script', cursive;
 	padding: 4px;
 	color: #fff;
 }
@@ -292,7 +291,9 @@ footer .creado-por a:hover {text-decoration: underline;}
 		margin-left: 11px;
 	}
 	#flecha{
-		margin-left: 41%;
+		width: 24px;
+		height: 24px;
+		margin-left: 49%;
 	}
 	.grid .item {
 		width: calc(50% - 20px);
