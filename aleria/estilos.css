@@ -45,7 +45,6 @@ header .logo {
 h1  {
 	font-size: 19px;
 	text-align: center;
-	font-family: 'Kaushan Script', cursive;
 	padding: 4px;
 	color: #fff;
 }
@@ -108,8 +107,10 @@ header .categorias a.activo {
 }
 
 .item{
+	
+	background: #333;
 	border-radius: 30px;
-	box-shadow: 0 0 0 5px rgb(124, 192, 21) , 0 0 0 5px #ffff, 0 0 0 7px  rgb(222, 20, 195);
+	 border:1px solid #fff;
 }
 
  .item img:hover {
@@ -134,9 +135,9 @@ header .categorias a.activo {
 	
 	position: relative;
 }
-.item-contenido{
-	
 
+.item-contenido{
+	margin-bottom: 12px;
 	margin-left: 44px;
 }
 #info{
@@ -281,7 +282,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 /* ------------------------- */
 @media screen and (max-width: 735px) {
 	body{
-		background: #333;
+		background: #000;
 		width: 92%;
 	}
 	.overlay img {
@@ -293,7 +294,7 @@ footer .creado-por a:hover {text-decoration: underline;}
 		font-size: 14px;
 	}
 	#mapa{
-		
+		margin-top: 12px;
 		width: 80%;
 		
 	}
@@ -302,6 +303,15 @@ footer .creado-por a:hover {text-decoration: underline;}
 		height: 40%;
 		
 		margin-left: 11px;
+	}
+	.item{
+		border-radius: 11px;
+		background: #fff;
+		box-shadow: none;
+	}
+	.item-contenido{
+		margin-bottom: 12px;
+		margin-left: 4px;
 	}
 	#flecha{
 		width: 24px;
