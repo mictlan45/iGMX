@@ -241,6 +241,7 @@ footer .redes-sociales {
 	align-content: center;
 	justify-content: center;
 	padding: 20px;
+	margin-left:25%;
 	flex-wrap: wrap;
 }
 #mapa{
@@ -305,6 +306,11 @@ footer .creado-por a:hover {text-decoration: underline;}
 	body{
 		background: #000;
 		width: 92%;
+	}
+	footer .redes-sociales {
+		padding: 11px;
+		margin-left:19%;
+		
 	}
 	#mweb {
 		color: #fff;
